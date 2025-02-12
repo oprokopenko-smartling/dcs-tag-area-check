@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './DescriptionForm.css';
 
 const DescriptionForm = () => {
-    const [description, setDescription] = useState('');
+    const [description, setDescription] = useState('Initial value');
     const [submittedDescription, setSubmittedDescription] = useState('');
 
     const handleSubmit = (event) => {
